@@ -15,6 +15,26 @@
 		C677C4EB216F33570071ECF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C677C4EA216F33570071ECF8 /* main.m */; };
 		C677C4F5216F33570071ECF8 /* EasyRulerPlaansTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C677C4F4216F33570071ECF8 /* EasyRulerPlaansTests.m */; };
 		C677C500216F33570071ECF8 /* EasyRulerPlaansUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C677C4FF216F33570071ECF8 /* EasyRulerPlaansUITests.m */; };
+		C677C512216F341E0071ECF8 /* Arial Narrow Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C677C50E216F341E0071ECF8 /* Arial Narrow Italic.ttf */; };
+		C677C513216F341E0071ECF8 /* Arial Narrow Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C677C50F216F341E0071ECF8 /* Arial Narrow Bold Italic.ttf */; };
+		C677C514216F341E0071ECF8 /* Arial Narrow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C677C510216F341E0071ECF8 /* Arial Narrow.ttf */; };
+		C677C515216F341E0071ECF8 /* Arial Narrow Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C677C511216F341E0071ECF8 /* Arial Narrow Bold.ttf */; };
+		C677C542216F35880071ECF8 /* MeasureState_General.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C518216F35880071ECF8 /* MeasureState_General.swift */; };
+		C677C543216F35880071ECF8 /* MeasureState_ManualMeasureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C51A216F35880071ECF8 /* MeasureState_ManualMeasureState.swift */; };
+		C677C546216F35880071ECF8 /* MeasureState_StartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C51E216F35880071ECF8 /* MeasureState_StartState.swift */; };
+		C677C547216F35880071ECF8 /* MeasureState_Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C51F216F35880071ECF8 /* MeasureState_Handler.swift */; };
+		C677C548216F35880071ECF8 /* MeasureState_WalkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C520216F35880071ECF8 /* MeasureState_WalkingState.swift */; };
+		C677C549216F35880071ECF8 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C522216F35880071ECF8 /* TapGestureView.swift */; };
+		C677C54A216F35880071ECF8 /* ResultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C523216F35880071ECF8 /* ResultButton.swift */; };
+		C677C54B216F35880071ECF8 /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C524216F35880071ECF8 /* CancelButton.swift */; };
+		C677C54C216F35880071ECF8 /* MeasureState_EndState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C525216F35880071ECF8 /* MeasureState_EndState.swift */; };
+		C677C562216F35880071ECF8 /* MeasureAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C540216F35880071ECF8 /* MeasureAppDelegate.swift */; };
+		C677C563216F35880071ECF8 /* MeasureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C541216F35880071ECF8 /* MeasureController.swift */; };
+		C677C565216F36280071ECF8 /* Extension_SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677C564216F36280071ECF8 /* Extension_SCNVector3.swift */; };
+		C677C56B216F37860071ECF8 /* arrow-top-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C677C567216F37860071ECF8 /* arrow-top-left@2x.png */; };
+		C677C56C216F37860071ECF8 /* btnCancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C677C568216F37860071ECF8 /* btnCancel@2x.png */; };
+		C677C56D216F37860071ECF8 /* btnOk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C677C569216F37860071ECF8 /* btnOk@2x.png */; };
+		C677C56E216F37860071ECF8 /* tapGesture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C677C56A216F37860071ECF8 /* tapGesture@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,26 @@
 		C677C4FB216F33570071ECF8 /* EasyRulerPlaansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRulerPlaansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C677C4FF216F33570071ECF8 /* EasyRulerPlaansUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyRulerPlaansUITests.m; sourceTree = "<group>"; };
 		C677C501216F33570071ECF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C677C50E216F341E0071ECF8 /* Arial Narrow Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Narrow Italic.ttf"; sourceTree = "<group>"; };
+		C677C50F216F341E0071ECF8 /* Arial Narrow Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Narrow Bold Italic.ttf"; sourceTree = "<group>"; };
+		C677C510216F341E0071ECF8 /* Arial Narrow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Narrow.ttf"; sourceTree = "<group>"; };
+		C677C511216F341E0071ECF8 /* Arial Narrow Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Narrow Bold.ttf"; sourceTree = "<group>"; };
+		C677C518216F35880071ECF8 /* MeasureState_General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureState_General.swift; sourceTree = "<group>"; };
+		C677C51A216F35880071ECF8 /* MeasureState_ManualMeasureState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureState_ManualMeasureState.swift; sourceTree = "<group>"; };
+		C677C51E216F35880071ECF8 /* MeasureState_StartState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureState_StartState.swift; sourceTree = "<group>"; };
+		C677C51F216F35880071ECF8 /* MeasureState_Handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureState_Handler.swift; sourceTree = "<group>"; };
+		C677C520216F35880071ECF8 /* MeasureState_WalkingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureState_WalkingState.swift; sourceTree = "<group>"; };
+		C677C522216F35880071ECF8 /* TapGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		C677C523216F35880071ECF8 /* ResultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultButton.swift; sourceTree = "<group>"; };
+		C677C524216F35880071ECF8 /* CancelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
+		C677C525216F35880071ECF8 /* MeasureState_EndState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureState_EndState.swift; sourceTree = "<group>"; };
+		C677C540216F35880071ECF8 /* MeasureAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureAppDelegate.swift; sourceTree = "<group>"; };
+		C677C541216F35880071ECF8 /* MeasureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureController.swift; sourceTree = "<group>"; };
+		C677C564216F36280071ECF8 /* Extension_SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_SCNVector3.swift; sourceTree = "<group>"; };
+		C677C567216F37860071ECF8 /* arrow-top-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-top-left@2x.png"; sourceTree = "<group>"; };
+		C677C568216F37860071ECF8 /* btnCancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnCancel@2x.png"; sourceTree = "<group>"; };
+		C677C569216F37860071ECF8 /* btnOk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnOk@2x.png"; sourceTree = "<group>"; };
+		C677C56A216F37860071ECF8 /* tapGesture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tapGesture@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +141,9 @@
 		C677C4DA216F33550071ECF8 /* EasyRulerPlaans */ = {
 			isa = PBXGroup;
 			children = (
+				C677C566216F37860071ECF8 /* Images */,
+				C677C516216F35880071ECF8 /* Implementation */,
+				C677C50D216F341E0071ECF8 /* Fonts */,
 				C677C4DB216F33550071ECF8 /* AppDelegate.h */,
 				C677C4DC216F33550071ECF8 /* AppDelegate.m */,
 				C677C4DE216F33550071ECF8 /* ViewController.h */,
@@ -130,6 +173,79 @@
 				C677C501216F33570071ECF8 /* Info.plist */,
 			);
 			path = EasyRulerPlaansUITests;
+			sourceTree = "<group>";
+		};
+		C677C50D216F341E0071ECF8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C677C50E216F341E0071ECF8 /* Arial Narrow Italic.ttf */,
+				C677C50F216F341E0071ECF8 /* Arial Narrow Bold Italic.ttf */,
+				C677C510216F341E0071ECF8 /* Arial Narrow.ttf */,
+				C677C511216F341E0071ECF8 /* Arial Narrow Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C677C516216F35880071ECF8 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				C677C517216F35880071ECF8 /* MeasureStateHandler */,
+				C677C526216F35880071ECF8 /* Extensions */,
+				C677C540216F35880071ECF8 /* MeasureAppDelegate.swift */,
+				C677C541216F35880071ECF8 /* MeasureController.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		C677C517216F35880071ECF8 /* MeasureStateHandler */ = {
+			isa = PBXGroup;
+			children = (
+				C677C518216F35880071ECF8 /* MeasureState_General.swift */,
+				C677C519216F35880071ECF8 /* Manual Measurement */,
+				C677C51E216F35880071ECF8 /* MeasureState_StartState.swift */,
+				C677C51F216F35880071ECF8 /* MeasureState_Handler.swift */,
+				C677C520216F35880071ECF8 /* MeasureState_WalkingState.swift */,
+				C677C521216F35880071ECF8 /* UserInterface */,
+				C677C525216F35880071ECF8 /* MeasureState_EndState.swift */,
+			);
+			path = MeasureStateHandler;
+			sourceTree = "<group>";
+		};
+		C677C519216F35880071ECF8 /* Manual Measurement */ = {
+			isa = PBXGroup;
+			children = (
+				C677C51A216F35880071ECF8 /* MeasureState_ManualMeasureState.swift */,
+			);
+			path = "Manual Measurement";
+			sourceTree = "<group>";
+		};
+		C677C521216F35880071ECF8 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				C677C522216F35880071ECF8 /* TapGestureView.swift */,
+				C677C523216F35880071ECF8 /* ResultButton.swift */,
+				C677C524216F35880071ECF8 /* CancelButton.swift */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		C677C526216F35880071ECF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C677C564216F36280071ECF8 /* Extension_SCNVector3.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C677C566216F37860071ECF8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C677C567216F37860071ECF8 /* arrow-top-left@2x.png */,
+				C677C568216F37860071ECF8 /* btnCancel@2x.png */,
+				C677C569216F37860071ECF8 /* btnOk@2x.png */,
+				C677C56A216F37860071ECF8 /* tapGesture@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +351,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C677C514216F341E0071ECF8 /* Arial Narrow.ttf in Resources */,
 				C677C4E8216F33570071ECF8 /* LaunchScreen.storyboard in Resources */,
 				C677C4E5216F33570071ECF8 /* Assets.xcassets in Resources */,
+				C677C56D216F37860071ECF8 /* btnOk@2x.png in Resources */,
+				C677C56C216F37860071ECF8 /* btnCancel@2x.png in Resources */,
+				C677C515216F341E0071ECF8 /* Arial Narrow Bold.ttf in Resources */,
+				C677C513216F341E0071ECF8 /* Arial Narrow Bold Italic.ttf in Resources */,
+				C677C56B216F37860071ECF8 /* arrow-top-left@2x.png in Resources */,
+				C677C56E216F37860071ECF8 /* tapGesture@2x.png in Resources */,
 				C677C4E3216F33550071ECF8 /* Main.storyboard in Resources */,
+				C677C512216F341E0071ECF8 /* Arial Narrow Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +386,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C677C543216F35880071ECF8 /* MeasureState_ManualMeasureState.swift in Sources */,
+				C677C546216F35880071ECF8 /* MeasureState_StartState.swift in Sources */,
 				C677C4E0216F33550071ECF8 /* ViewController.m in Sources */,
+				C677C54B216F35880071ECF8 /* CancelButton.swift in Sources */,
+				C677C54A216F35880071ECF8 /* ResultButton.swift in Sources */,
+				C677C562216F35880071ECF8 /* MeasureAppDelegate.swift in Sources */,
+				C677C548216F35880071ECF8 /* MeasureState_WalkingState.swift in Sources */,
+				C677C549216F35880071ECF8 /* TapGestureView.swift in Sources */,
+				C677C54C216F35880071ECF8 /* MeasureState_EndState.swift in Sources */,
+				C677C542216F35880071ECF8 /* MeasureState_General.swift in Sources */,
 				C677C4EB216F33570071ECF8 /* main.m in Sources */,
+				C677C565216F36280071ECF8 /* Extension_SCNVector3.swift in Sources */,
+				C677C547216F35880071ECF8 /* MeasureState_Handler.swift in Sources */,
+				C677C563216F35880071ECF8 /* MeasureController.swift in Sources */,
 				C677C4DD216F33550071ECF8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +580,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Mikavaa.EasyRulerPlaans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -461,6 +598,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Mikavaa.EasyRulerPlaans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -468,6 +606,7 @@
 		C677C508216F33570071ECF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29M2K7MYPU;
@@ -487,6 +626,7 @@
 		C677C509216F33570071ECF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29M2K7MYPU;
@@ -506,6 +646,7 @@
 		C677C50B216F33570071ECF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29M2K7MYPU;
 				INFOPLIST_FILE = EasyRulerPlaansUITests/Info.plist;
@@ -524,6 +665,7 @@
 		C677C50C216F33570071ECF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29M2K7MYPU;
 				INFOPLIST_FILE = EasyRulerPlaansUITests/Info.plist;
