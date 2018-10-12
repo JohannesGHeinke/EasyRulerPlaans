@@ -7,8 +7,8 @@
 //
 
 #import <ARKit/ARKit.h>
-#import "ViewController.h"
 #import "EasyRulerPlaans-Swift.h"
+#import "ViewController.h"
 
 @interface ViewController () <ARSCNViewDelegate>
 
@@ -21,7 +21,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     MeasureController *m = [[MeasureController alloc] initWithViewController: self];
     [m setupMeasurement];
+    
 }
 
+-(void)handle:(float)distance {
+    // Hier wird die Distance übergeben (Callback)
+    NSLog(@"Distance");
+}
 
 @end

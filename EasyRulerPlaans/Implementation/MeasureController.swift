@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 import ARKit
 
-@available(iOS 11.0, *)
+@available(iOS 12.0, *)
 @objc public final class MeasureController: NSObject {
     
     internal final let handler = MeasureState_Handler.init()
-    internal final let viewController: UIViewController & ARSCNViewDelegate
+    internal final let viewController: ViewController
     
     private final var firstCall = true
     
@@ -32,7 +32,7 @@ import ARKit
         self.handler.currentState = self.handler.startState
     }
     
-    @objc public init(viewController: UIViewController & ARSCNViewDelegate) {
+    @objc public init(viewController: ViewController) {
         self.viewController = viewController
         super.init()
     }

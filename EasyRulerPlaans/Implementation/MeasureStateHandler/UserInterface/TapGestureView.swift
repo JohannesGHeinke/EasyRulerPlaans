@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-@available(iOS 11.0, *)
+@available(iOS 12.0, *)
 internal final class TapGestureView: UIImageView {
     
     private final let handler: MeasureState_Handler

@@ -11,7 +11,7 @@ import ARKit
 import UIKit
 import CoreGraphics
 
-@available(iOS 11.0, *)
+@available(iOS 12.0, *)
 internal class MeasureState_General {
     
     private final var view: MeasureController? = nil

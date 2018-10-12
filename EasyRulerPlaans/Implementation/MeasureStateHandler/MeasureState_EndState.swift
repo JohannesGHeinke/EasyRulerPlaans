@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-@available(iOS 11.0, *)
+@available(iOS 12.0, *)
 internal final class MeasureState_EndState: MeasureState_General {
     
     override internal final func appaerState() {

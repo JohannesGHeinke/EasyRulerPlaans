@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ARKit/ARKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ARSCNViewDelegate>
 
-
+- (void)handle: (float) distance;
 @end
 

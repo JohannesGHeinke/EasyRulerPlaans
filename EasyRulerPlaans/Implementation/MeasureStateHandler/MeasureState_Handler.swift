@@ -11,8 +11,8 @@ import UIKit
 import ARKit
 import SceneKit
 
-@available(iOS 11.0, *)
-internal final class MeasureState_Handler {
+@available(iOS 12.0, *)
+internal final class MeasureState_Handler: NSObject {
     
     internal final let startState = MeasureState_StartState.init()
     internal final let walkingState = MeasureState_WalkingState.init()
